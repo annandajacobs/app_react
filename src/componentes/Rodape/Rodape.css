@@ -1,17 +1,26 @@
-.rodape {
-    background-color: aqua;
+.footer {
+    background-color: #6278F7;
     padding: 10px 20px;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%; 
 }
 
-.rodape p {
-    
+.footer p {
+    color: aliceblue;
+}
+
+.footer .logo {
+    width: 150px;
 }
 
 .redes {
-    position: relative;
-    
+    display: flex;
+    gap: 20px;
+}
+
+.redes img {
+    width: 25px;
 }
